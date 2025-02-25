@@ -13,3 +13,39 @@ label {
     display: block;
     margin-bottom: 5px;
 }
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Validation styling */
+input:invalid, select:invalid {
+    border-color: #ff6b6b;
+}
+
+input:valid, select:valid {
+    border-color: #51cf66;
+}
+
+.error {
+    color: #ff6b6b;
+    font-size: 0.8em;
+    display: none; /* Hidden by default */
+}
+
+button {
+    background-color: #339af0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #228be6;
+}
